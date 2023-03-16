@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Accueil</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="product.html">Produit</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="social.html">Réseaux sociaux</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
     <main>
       <section id="hero">
         <h1 id="dp">DONOPOTTER</h1>
-        <p>Je suis un développeur web passionné par la création de sites et d'applications. J'ai travaillé sur de nombreux projets passionnants, mais je suis toujours à la recherche de nouveaux défis.</p>
+        <p>Je suis un développeur web passionné par la création de sites et d'applications. J'ai travaillé sur de nombreux projets passionnants, mais je suis toujours            à la recherche de nouveaux défis.</p>
         <p>Si vous avez un projet à venir et que vous cherchez un développeur talentueux pour le réaliser, n'hésitez pas à me contacter.</p>
         <button><a href="contact.html">Contactez-moi</a></button>
       </section>
