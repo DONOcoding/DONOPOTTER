@@ -1,0 +1,283 @@
+body {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #222222;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  /* contact */
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #8B008B;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/* Reseaux sociaux */
+.social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .social-list li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .social-list a {
+    display: inline-block;
+    background-color: #8B008B;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+/* portfolio */
+.portfolio-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-list li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(50% - 20px);
+  }
+  
+  .portfolio-list a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .portfolio-list img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-out;
+  }
+  
+  .portfolio-list h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: transform 0.2s ease-out;
+    transform: translateY(100%);
+  }
+  
+  .portfolio-list a:hover img {
+    transform: scale(1.1);
+  }
+  
+  .portfolio-list a:hover h2 {
+    transform: translateY(0);
+  }
+/* product */
+
+/* Pagination */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: 300px;
+  margin: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.product button {
+  display: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.product:hover button {
+  display: block;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pagination ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 0.5rem;
+}
+
+.pagination a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid #252525;
+  border-radius: 5px;
+  color: #252525;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pagination a.active {
+  background-color: #252525;
+  color: white;
+}
+
+.pagination a:hover {
+  background-color: #252525;
+  color: white;
+}
+/* Entête */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 2rem;
+  background-color: #252525;
+  color: white;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Social Media Accueil */
+#social-media ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+#social-media li {
+  margin: 0 10px;
+}
+
+#sm {
+  display: flex;
+  justify-content: center;
+}
+
+#dp {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+}
